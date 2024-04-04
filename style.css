@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+
+header{
+    color: aliceblue;
+    
+    width: 100%;
+    background-color: rgb(0, 157, 248);
+}
+
+.texto{
+    text-align: center;
+    
+    
+}
+
+.diva{
+    display: flex;
+    justify-content: space-around;
+}
+.imgs{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tamanho{
+    margin: 30px;
+    display:flex;
+    align-items: center;
+    background-color: rgb(255, 252, 232);
+    width: 660px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+
+.textomargin{
+    margin-left: 10px;
+    
+}
+
+
+.preserva{
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    background-color: rgb(0, 157, 248); 
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    
+    
+}
+
+.preserva:hover{
+    box-shadow: 0 0 15px 0 rgb(255, 255, 255);
+}
+
+.previnir{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.tamanho2{
+    padding-left: 500px;
+}
+
+
+body {
+    background-image: url(agua.jpg);
+}
